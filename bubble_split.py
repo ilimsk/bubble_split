@@ -39,7 +39,7 @@ for word in word_list:
         print('Ошибка. Необходимо вводить целые числа и  разделять их пробелами')
         exit(0)
 
-array = (buble_sort(array_int))
+array = (bubble_sort(array_int))
 print('Отсортированный список ')
 print(array)
 
