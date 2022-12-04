@@ -1,4 +1,4 @@
-def buble_sort(param):
+def bubble_sort(param):
     for i in range(len(param)):
         for j in range(len(param)-i-1):
             if param[j] > param[j+1]:
